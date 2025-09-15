@@ -16,3 +16,14 @@ Each command was created in its own branch and merged to main.
 ls -la
 ls -lh /Applications
 
+
+## 02) cd — Change directory
+**What it does:** Moves between directories.
+
+**Examples:**
+```bash
+cd ~        # go to home
+cd ..       # go up one level
+cd -        # go back to previous dir
+
+
