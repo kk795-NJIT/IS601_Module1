@@ -135,3 +135,10 @@ git status -sb
 git add README.md
 git add .
 
+
+## 14) git commit — Save snapshot
+**What it does:** Records staged changes in history.
+
+**Example:**
+```bash
+git commit -m "docs: add new command section"
