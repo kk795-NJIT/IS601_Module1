@@ -142,3 +142,18 @@ git add .
 **Example:**
 ```bash
 git commit -m "docs: add new command section"
+
+
+## 15) git log — View history
+**What it does:** Shows commit history.
+
+**Flags:**
+- `--oneline` → compact view
+- `--graph` → ASCII branch tree
+- `--decorate` → show branch names/tags
+
+**Examples:**
+```bash
+git log --oneline
+git log --oneline --graph --decorate --all
+
