@@ -53,3 +53,16 @@ mkdir -p src/utils
 **Example:**
 ```bash
 touch notes.txt
+
+
+## 06) cp — Copy files and directories
+**What it does:** Copies files.
+
+**Flags:**
+- `-r` → recursive copy for directories
+
+**Examples:**
+```bash
+cp file1.txt file2.txt
+cp -r src src_backup
+
