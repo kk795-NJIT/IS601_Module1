@@ -33,3 +33,15 @@ cd -        # go back to previous dir
 **Example:**
 ```bash
 pwd
+
+
+## 04) mkdir — Make directory
+**What it does:** Creates a new directory.
+
+**Flags:**
+- `-p` → create parent directories if not present
+
+**Examples:**
+```bash
+mkdir project
+mkdir -p src/utils
