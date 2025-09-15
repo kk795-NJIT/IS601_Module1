@@ -45,3 +45,11 @@ pwd
 ```bash
 mkdir project
 mkdir -p src/utils
+
+
+## 05) touch — Create empty file
+**What it does:** Creates a new empty file or updates timestamp.
+
+**Example:**
+```bash
+touch notes.txt
