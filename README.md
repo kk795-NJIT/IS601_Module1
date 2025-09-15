@@ -15,7 +15,7 @@ Each command was created in its own branch and merged to main.
 ```bash
 ls -la
 ls -lh /Applications
-
+```
 
 ## 02) cd — Change directory
 **What it does:** Moves between directories.
@@ -25,7 +25,7 @@ ls -lh /Applications
 cd ~        # go to home
 cd ..       # go up one level
 cd -        # go back to previous dir
-
+```
 
 ## 03) pwd — Print working directory
 **What it does:** Shows the full path of the current directory.
@@ -33,7 +33,7 @@ cd -        # go back to previous dir
 **Example:**
 ```bash
 pwd
-
+```
 
 ## 04) mkdir — Make directory
 **What it does:** Creates a new directory.
@@ -45,7 +45,7 @@ pwd
 ```bash
 mkdir project
 mkdir -p src/utils
-
+```
 
 ## 05) touch — Create empty file
 **What it does:** Creates a new empty file or updates timestamp.
@@ -53,7 +53,7 @@ mkdir -p src/utils
 **Example:**
 ```bash
 touch notes.txt
-
+```
 
 ## 06) cp — Copy files and directories
 **What it does:** Copies files.
@@ -65,7 +65,7 @@ touch notes.txt
 ```bash
 cp file1.txt file2.txt
 cp -r src src_backup
-
+```
 
 ## 07) mv — Move or rename
 **What it does:** Moves or renames files.
@@ -74,7 +74,7 @@ cp -r src src_backup
 ```bash
 mv old.txt new.txt
 mv file.txt docs/
-
+```
 
 ## 08) rm — Remove files
 **What it does:** Deletes files or directories.
@@ -87,7 +87,7 @@ mv file.txt docs/
 ```bash
 rm -i file.txt
 rm -rf build/
-
+```
 
 ## 09) grep — Search inside files
 **What it does:** Finds patterns inside text.
@@ -100,7 +100,7 @@ rm -rf build/
 ```bash
 grep -n "main" README.md
 grep -R "init" .
-
+```
 
 ## 10) find — Locate files
 **What it does:** Finds files by name or criteria.
@@ -109,7 +109,7 @@ grep -R "init" .
 ```bash
 find . -name "*.md"
 find /usr -type f -size +10M
-
+```
 
 ## 11) git init — Initialize repository
 **What it does:** Creates a new Git repo.
@@ -117,7 +117,7 @@ find /usr -type f -size +10M
 **Example:**
 ```bash
 git init -b main
-
+```
 
 ## 12) git status — Show working state
 **What it does:** Displays staged, modified, or untracked files.
@@ -125,7 +125,7 @@ git init -b main
 **Example:**
 ```bash
 git status -sb
-
+```
 
 ## 13) git add — Stage changes
 **What it does:** Adds files to staging area.
@@ -134,7 +134,7 @@ git status -sb
 ```bash
 git add README.md
 git add .
-
+```
 
 ## 14) git commit — Save snapshot
 **What it does:** Records staged changes in history.
@@ -142,7 +142,7 @@ git add .
 **Example:**
 ```bash
 git commit -m "docs: add new command section"
-
+```
 
 ## 15) git log — View history
 **What it does:** Shows commit history.
@@ -156,4 +156,4 @@ git commit -m "docs: add new command section"
 ```bash
 git log --oneline
 git log --oneline --graph --decorate --all
-
+```
