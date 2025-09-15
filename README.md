@@ -100,3 +100,12 @@ rm -rf build/
 ```bash
 grep -n "main" README.md
 grep -R "init" .
+
+
+## 10) find — Locate files
+**What it does:** Finds files by name or criteria.
+
+**Examples:**
+```bash
+find . -name "*.md"
+find /usr -type f -size +10M
