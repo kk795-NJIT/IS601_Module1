@@ -66,3 +66,12 @@ touch notes.txt
 cp file1.txt file2.txt
 cp -r src src_backup
 
+
+## 07) mv — Move or rename
+**What it does:** Moves or renames files.
+
+**Examples:**
+```bash
+mv old.txt new.txt
+mv file.txt docs/
+
