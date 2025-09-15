@@ -87,3 +87,16 @@ mv file.txt docs/
 ```bash
 rm -i file.txt
 rm -rf build/
+
+
+## 09) grep — Search inside files
+**What it does:** Finds patterns inside text.
+
+**Flags:**
+- `-n` → show line numbers
+- `-R` → recursive search
+
+**Examples:**
+```bash
+grep -n "main" README.md
+grep -R "init" .
