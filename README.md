@@ -109,3 +109,12 @@ grep -R "init" .
 ```bash
 find . -name "*.md"
 find /usr -type f -size +10M
+
+
+## 11) git init — Initialize repository
+**What it does:** Creates a new Git repo.
+
+**Example:**
+```bash
+git init -b main
+
