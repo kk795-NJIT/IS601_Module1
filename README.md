@@ -75,3 +75,15 @@ cp -r src src_backup
 mv old.txt new.txt
 mv file.txt docs/
 
+
+## 08) rm — Remove files
+**What it does:** Deletes files or directories.
+
+**Flags:**
+- `-i` → interactive (ask before delete)
+- `-r` → recursive (delete dirs)
+
+**Examples:**
+```bash
+rm -i file.txt
+rm -rf build/
