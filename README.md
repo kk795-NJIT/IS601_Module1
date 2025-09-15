@@ -27,3 +27,9 @@ cd ..       # go up one level
 cd -        # go back to previous dir
 
 
+## 03) pwd — Print working directory
+**What it does:** Shows the full path of the current directory.
+
+**Example:**
+```bash
+pwd
