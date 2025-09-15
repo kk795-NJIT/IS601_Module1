@@ -126,3 +126,12 @@ git init -b main
 ```bash
 git status -sb
 
+
+## 13) git add — Stage changes
+**What it does:** Adds files to staging area.
+
+**Examples:**
+```bash
+git add README.md
+git add .
+
