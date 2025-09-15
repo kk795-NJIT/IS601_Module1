@@ -118,3 +118,11 @@ find /usr -type f -size +10M
 ```bash
 git init -b main
 
+
+## 12) git status — Show working state
+**What it does:** Displays staged, modified, or untracked files.
+
+**Example:**
+```bash
+git status -sb
+
